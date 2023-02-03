@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="styles.css" rel="stylesheet">
+
+    <title>BlackJack</title>
+  </head>
+  <body>
+    
+
+    <div class="container">
+
+      <div class="row justify-content-center">
+
+        <div class="text-center textWhite myBox">
+          <h1>BlackJack</h1>
+          <p id="message"><i>Do you want to play a round?</i></p>
+          <p id="cards-el">Cards: </p>
+          <p id="sum-el">Sum: </p>
+          
+          <div class="col">
+            <div style="padding: 10px;margin: 10px;">
+              <a href="#" class="btn btn-warning" onclick="StartGame()">Start Game</a>
+            </div>
+
+            <div>
+              <a href="#" class="btn btn-warning" onclick="newCard()">New Card</a>
+              <h4 id="player-el" style="margin: 10px;"></h4>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+
+    
+    <script src="js/bootstrap.min.js"></script>
+    <script src="index.js"></script>
+    
+    
+  </body>
+</html>
